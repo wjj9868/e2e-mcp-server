@@ -1,0 +1,1 @@
+{"version":3,"file":"init-project.d.ts","sourceRoot":"","sources":["../../src/tools/init-project.ts"],"names":[],"mappings":"AAAA;;;GAGG;AAKH,UAAU,eAAe;IACvB,UAAU,EAAE,MAAM,CAAA;IAClB,OAAO,CAAC,EAAE,MAAM,CAAA;CACjB;AAED,wBAAsB,WAAW,CAAC,IAAI,EAAE,eAAe,GAAG,OAAO,CAAC;IAChE,OAAO,EAAE,KAAK,CAAC;QAAE,IAAI,EAAE,MAAM,CAAC;QAAC,IAAI,EAAE,MAAM,CAAA;KAAE,CAAC,CAAA;CAC/C,CAAC,CAsGD"}

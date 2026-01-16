@@ -1,0 +1,1 @@
+{"version":3,"file":"open-report.d.ts","sourceRoot":"","sources":["../../src/tools/open-report.ts"],"names":[],"mappings":"AAAA;;GAEG;AAMH,UAAU,cAAc;IACtB,OAAO,CAAC,EAAE,MAAM,CAAA;CACjB;AAED,wBAAsB,UAAU,CAAC,IAAI,EAAE,cAAc,GAAG,OAAO,CAAC;IAC9D,OAAO,EAAE,KAAK,CAAC;QAAE,IAAI,EAAE,MAAM,CAAC;QAAC,IAAI,EAAE,MAAM,CAAA;KAAE,CAAC,CAAA;CAC/C,CAAC,CAuFD"}

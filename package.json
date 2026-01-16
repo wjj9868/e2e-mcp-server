@@ -1,0 +1,54 @@
+{
+  "name": "e2e-test-mcp",
+  "version": "1.0.0",
+  "description": "精简版 E2E 测试 MCP Server - 只做 AI 做不了的事",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "e2e-test-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build",
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "e2e",
+    "playwright",
+    "testing",
+    "automation",
+    "ai",
+    "claude",
+    "kiro"
+  ],
+  "author": "wjj9868 <wjj2833356143@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wjj9868/e2e-mcp-server.git"
+  },
+  "homepage": "https://github.com/wjj9868/e2e-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/wjj9868/e2e-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ]
+}

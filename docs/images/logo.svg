@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <!-- 主渐变 - Playwright 风格的绿色 -->
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2EAD33"/>
+      <stop offset="100%" style="stop-color:#45BA4B"/>
+    </linearGradient>
+    <!-- AI 紫色渐变 -->
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#A78BFA"/>
+    </linearGradient>
+    <!-- 连接线渐变 -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#2EAD33"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="200" height="200" fill="#0F172A" rx="24"/>
+  
+  <!-- 左侧：AI 大脑/节点 -->
+  <circle cx="55" cy="100" r="32" fill="none" stroke="url(#aiGrad)" stroke-width="3"/>
+  <circle cx="55" cy="100" r="18" fill="url(#aiGrad)"/>
+  <!-- AI 内部点阵 -->
+  <circle cx="48" cy="93" r="3" fill="#0F172A"/>
+  <circle cx="62" cy="93" r="3" fill="#0F172A"/>
+  <circle cx="55" cy="107" r="4" fill="#0F172A"/>
+  
+  <!-- 中间：MCP 连接线/数据流 -->
+  <path d="M 87 100 L 113 100" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round"/>
+  <!-- 数据流动点 -->
+  <circle cx="95" cy="100" r="3" fill="#8B5CF6" opacity="0.8"/>
+  <circle cx="100" cy="100" r="2.5" fill="#6D28D9"/>
+  <circle cx="105" cy="100" r="3" fill="#2EAD33" opacity="0.8"/>
+  
+  <!-- 右侧：浏览器/测试 -->
+  <rect x="113" y="68" width="64" height="64" rx="8" fill="none" stroke="url(#mainGrad)" stroke-width="3"/>
+  <!-- 浏览器顶栏 -->
+  <line x1="113" y1="82" x2="177" y2="82" stroke="url(#mainGrad)" stroke-width="2"/>
+  <!-- 浏览器按钮 -->
+  <circle cx="122" cy="75" r="3" fill="#EF4444"/>
+  <circle cx="131" cy="75" r="3" fill="#F59E0B"/>
+  <circle cx="140" cy="75" r="3" fill="#22C55E"/>
+  
+  <!-- 测试通过勾选 -->
+  <circle cx="145" cy="110" r="16" fill="url(#mainGrad)"/>
+  <path d="M137 110 L143 116 L154 104" stroke="#0F172A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- 底部文字 -->
+  <text x="100" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="2">E2E TEST MCP</text>
+  
+  <!-- 装饰：连接点 -->
+  <circle cx="87" cy="100" r="4" fill="#8B5CF6"/>
+  <circle cx="113" cy="100" r="4" fill="#2EAD33"/>
+</svg>
